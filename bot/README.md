@@ -52,7 +52,7 @@ bot/
 
 ## Installation
 
-From the `src/adk/bot/` directory:
+From the `AgenticAI_Chatbot/bot/` directory:
 
 ```bash
 # Using uv (recommended)
@@ -76,7 +76,7 @@ Key dependencies:
 
 ## Configuration
 
-Create or update `src/adk/bot/.env`:
+Create or update `AgenticAI_Chatbot/bot/.env`:
 
 ```
 GOOGLE_GENAI_USE_VERTEXAI=0
