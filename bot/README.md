@@ -91,14 +91,14 @@ MODEL_NAME=your-model-name-here
 Banking tools can be exposed via an MCP server (`mcp_server.py`) that ADK spawns automatically as a subprocess using `stdio` transport when the agent is loaded. The tools in `tools.py` are reused directly — `mcp_server.py` only registers them and not used in the solution. However to test the MCP server independently:
 
 ```bash
-cd src/adk
+cd AgenticAI_Chatbot/bot
 python bot/mcp_server.py
 ```
 
 ## Running with ADK Web
 
 ```bash
-cd src/adk
+cd AgenticAI_Chatbot/bot
 adk web
 ```
 
