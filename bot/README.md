@@ -132,9 +132,9 @@ Quite a few features have been left out due to limiation of time. They include:
 1. Rate limiting (Attempted)
 2. MCP server (Included but not used as more work is required to be done)
 3. Enhanced logging
-4. Caching and memory management
+4. Enhanced Caching and memory management
 5. Guardrails
-6. Context engineering - prompt tightening, skills etc.
+6. Enhanced Context engineering - prompt tightening, skills etc.
 7. Versioning
 8. Monitoring
 9. Security
