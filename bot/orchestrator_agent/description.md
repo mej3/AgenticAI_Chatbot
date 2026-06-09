@@ -1,0 +1,1 @@
+Customer-facing banking support assistant that authenticates users and handles balance, transaction history, and unfamiliar charge queries.
