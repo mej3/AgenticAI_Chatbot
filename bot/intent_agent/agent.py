@@ -4,7 +4,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".
 from google.adk.agents import LlmAgent
 from google.genai.types import GenerateContentConfig
 from pydantic import BaseModel
-from helpers.file_loader import load_instructions_file
+from file_loader import load_instructions_file
 from bot.model import get_model
 
 
