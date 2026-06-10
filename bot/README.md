@@ -11,33 +11,40 @@ Google ADK was chosen as the Agentic AI framework as ADK Web provides UI for qui
 
 ```
 bot/
-├── agent.py                  ← ADK web entry point
-├── orchestrator_agent/       ← Root agent — authenticates user and routes requests
+├── agent.py                              ← ADK web entry point
+├── orchestrator_agent/                   ← Root agent — authenticates user and routes requests
 │   ├── __init__.py
 │   ├── agent.py
 │   ├── description.md
 │   └── instructions.md
-├── intent_agent/             ← Classifies user intent
+├── intent_agent/                         ← Classifies user intent
 │   ├── __init__.py
 │   ├── agent.py
 │   ├── description.md
 │   └── instructions.md
-├── susp_tx_agent/            ← Explains unfamiliar/suspicious charges
+├── susp_tx_agent/                        ← Explains unfamiliar/suspicious charges
 │   ├── __init__.py
 │   ├── agent.py
 │   ├── description.md
 │   └── instructions.md
-├── description/              ← Design and architecture diagrams
-│   ├── agent_components.png  ← Agent component breakdown
-│   ├── architecture.jpg      ← System architecture diagram
-│   ├── multi_agent_design.png ← Multi-agent workflow diagram
-│   └── Results.xlsx          ← Test results
-├── mcp_server.py             ← MCP server exposing banking tools
-├── data.py                   ← In-memory customer, account and transaction data
-├── model.py                  ← Gemini model configuration
-├── tools.py                  ← Banking tools (auth, balance, transactions, charges)
-├── pyproject.toml            ← Project dependencies
-└── .env                      ← Environment configuration
+├── description/                          ← Design and architecture diagrams
+│   ├── agent_components.png              ← Agent component breakdown
+│   ├── architecture.png                  ← System architecture diagram
+│   ├── chatty_user_msg_processing.png    ← Chatty user message processing flow
+│   ├── fragmented_input_processing.png   ← Fragmented input processing flow
+│   ├── multi_agent_design.png            ← Multi-agent workflow diagram
+│   └── Results.xlsx                      ← Test results
+├── notebooks/                            ← Jupyter notebooks for experimentation
+│   ├── BankingBot_MultiAgent.ipynb       ← Multi-agent notebook
+│   └── BankingBot_SingleAgent.ipynb      ← Single-agent notebook
+├── data.py                               ← In-memory customer, account and transaction data
+├── file_loader.py                        ← File loading utilities
+├── mcp_server.py                         ← MCP server exposing banking tools
+├── model.py                              ← Gemini model configuration
+├── rate_limit.py                         ← Rate limiting implementation
+├── tools.py                              ← Banking tools (auth, balance, transactions, charges)
+├── pyproject.toml                        ← Project dependencies
+└── .env                                  ← Environment configuration
 ```
 
 ## Architecture
