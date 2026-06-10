@@ -2,7 +2,7 @@ import os, sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
 from google.adk import Agent
-from helpers.file_loader import load_instructions_file
+from file_loader import load_instructions_file
 from bot.model import get_model
 from bot.tools import (
     authenticate_customer,
