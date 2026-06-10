@@ -111,13 +111,6 @@ adk web
 
 Then open `http://localhost:8000` in your browser and select `orchestrator_agent` from the agent dropdown.
 
-## Test Credentials
-
-| Customer ID | PIN | Accounts |
-|---|---|---|
-| CUST1001 | 1234 | Current (×4321), Savings (×9988) |
-| CUST1002 | 4321 | Current (×1111) |
-
 ## Test Plan
 
 User must be first authenticated. Following the below test cases preferably in order. If the order is to be mixed up, the first test case is mandatory for authorisation.
@@ -135,6 +128,15 @@ Note: This is only a prototype, so functionality will be limited.
 | Not main intent (Greeting testing) | "okay" |
 | Not main intent (Reaffirmation testing) | "I'd like to know the last transaction of CUST1001" |
 | Not main intent (Negative testing) | "I'd like to know the last transaction of CUST1002" |
+
+## Test Data
+
+Test data is contained in data.py to load the data at run time into Pandas dataframes. Below 2 customer IDs, PINs and account numbers may be used for testing.
+
+| Customer ID | PIN | Accounts |
+|---|---|---|
+| CUST1001 | 1234 | Current (×4321), Savings (×9988) |
+| CUST1002 | 4321 | Current (×1111) |
 
 ## Features not implemented
 
