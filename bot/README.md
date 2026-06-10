@@ -42,7 +42,7 @@ bot/
 
 ## Architecture
 
-![Architecture](description/architecture.jpg)
+![Architecture](description/architecture.png)
 
 ## Prerequisites
 
