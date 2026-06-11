@@ -1,1 +1,1 @@
-This repo contain `bot` folder that implements an agentic AI chatbot with Google ADK Agentic AI framework. Navigate to this folder for details.
+This is a demonstration of an agentic AI chatbot with Google ADK Agentic AI framework. Navigate to `bot` folder for details.
