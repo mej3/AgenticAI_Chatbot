@@ -141,7 +141,7 @@ Test data is contained in data.py to load the data at run time into Pandas dataf
 | CUST1001 | 1234 | Current (×4321), Savings (×9988) |
 | CUST1002 | 4321 | Current (×1111) |
 
-## Features not implemented
+## Features that might be implemented in future
 
 Quite a few features have been left out due to limiation of time. They include:
 1. Rate limiting (Attempted)
