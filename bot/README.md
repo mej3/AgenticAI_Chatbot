@@ -1,7 +1,10 @@
-# Banking Chatbot — ADK Web
+# Demo Chatbot
 
-A customer-facing banking chatbot built with Google ADK. Supports balance enquiries, transaction history, and unfamiliar charge investigation.
-Google ADK was chosen as the Agentic AI framework as ADK Web provides UI for quick prototyping and testing.
+This code repo may be downloaded and run locally by following the README.md for your experimenation.
+
+# Agentic Chatbot on ADK Web
+
+A customer-facing banking chatbot that supports balance enquiries, transaction history, and unfamiliar charge investigation. The chatbot was developed with Google ADK as the Agentic AI framework as `ADK Web` by default provides a UI for quick prototyping and testing.
 
 ## Multi-Agent Design
 
