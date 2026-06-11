@@ -146,10 +146,10 @@ Quite a few features have been left out due to limiation of time. They include:
 3. Enhanced logging
 4. Enhanced Caching and memory management
 5. Guardrails
-6. Context engineering - prompt tightening, skills, input normalisation, buffer management, context compression, hallucination detection/scoring etc.
+6. Context engineering - prompt tightening, skills management, hallucination detection/scoring etc.
 7. Versioning
 8. Monitoring
 9. Security
 10. Data ingestion (Pandas dataframe was used as stubs)
 11. User authentication and authorisation
-12. Dedicated conversation layer for receiving messages, normalising input, buffering messages, queuing requests and calling ADK
+12. Dedicated conversation layer for receiving messages, input normalisation, buffer management, context compression, requests queuing and ADK agent invocation
